@@ -12,7 +12,7 @@ rm(list=ls(all=T))
 setwd("~/Dropbox/Trabalho e Estudo/SuperMetrica/Lei de Benford/Dicionario")
 
 # ler o arquivo txt
-local = "~/Dropbox/Trabalho e Estudo/SuperMetrica/Lei de Benford/Dicionario/Dicionário Aurélio pdf.txt"
+local = "~/Dropbox/Trabalho e Estudo/SuperMetrica/Lei de Benford/Dicionario/Dicionário.txt"
 dados = read.table(local, header = F, sep = "\t", blank.lines.skip = T, 
                    encoding = "UTF-8", fill = T, quote = NULL, skipNul = T, skip = 2452)
 
